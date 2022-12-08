@@ -87,7 +87,7 @@
             credentials: 'include'
           };
           
-          fetch("http://115.78.232.196:88/api/auth/login", requestOptions)
+          fetch("https://dakshow.vn/api/auth/login", requestOptions)
             .then(response => response.text())
             .then(result => {
                 console.log(JSON.parse(result))
